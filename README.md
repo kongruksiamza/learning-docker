@@ -30,7 +30,7 @@
 </div>
 
 
-## 🔈 Docker CLI
+## 📣 Docker CLI
 
 ## 🐳 Docker Images
 
