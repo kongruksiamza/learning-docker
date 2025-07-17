@@ -42,6 +42,9 @@
 
 ## 📝 Dockerfile
 
+#### ติดตั้ง Python 
+- ดาวน์โหลด : https://python.org/
+
 #### ติดตั้ง Flask
 ```
 pip install flask
