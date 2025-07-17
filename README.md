@@ -1,3 +1,5 @@
+## 🔈 Docker CLI
+
 ## 🐳 Docker Images
 
 
@@ -65,4 +67,4 @@ docker build -t my-python-app:0.1 .
 docker run --rm -p 3000:5000 --name mycontainer my-python-app:0.1
 ```
 
-## 🚀 Push Images
+## 🌍 Push Images (Repository)
