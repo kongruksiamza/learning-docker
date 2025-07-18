@@ -54,7 +54,7 @@ pip install flask
 pip list
 ```
 
-#### โค้ดประกอบการสอน (app.py)
+#### โค้ดประกอบการสอน app.py (Flask)
 ```
 from flask import Flask
 app = Flask(__name__)
