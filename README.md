@@ -29,18 +29,7 @@
   </a>
 </div>
 
-
-## 📣 Docker CLI
-
-## 🧱 Docker Images
-
-
-## 📦 Docker Containers
-
-
-## 🗃️ Docker Registry
-
-## 📝 Dockerfile (Flask Application)
+## 📝 Flask Application
 
 #### ติดตั้ง Python 
 - ดาวน์โหลด : https://python.org/
@@ -79,7 +68,7 @@ python app.py
 pip freeze > requirements.txt
 ```
 
-#### คำสั่งใน Dockerfile
+## 📝 Dockerfile
 
 ```
 FROM python:3.13
@@ -94,7 +83,7 @@ CMD ["python", "app.py"]
 #### Build Image
 
 ```
-docker build -t my-python-app:0.1 .
+docker build -t <image-name:tag> .
 ```
 
 ## 🚪 Port Mapping
