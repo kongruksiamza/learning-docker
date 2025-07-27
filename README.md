@@ -29,7 +29,7 @@
   </a>
 </div>
 
-## 📝 Flask Application
+## 💻 Flask Application
 
 #### ติดตั้ง Python 
 - ดาวน์โหลด : https://python.org/
@@ -63,13 +63,15 @@ if __name__ == '__main__':
 python app.py
 ```
 
+
+## 📝 Dockerfile
+
 #### สร้างไฟล์เก็บรายชื่อ Package
 ```
 pip freeze > requirements.txt
 ```
 
-## 📝 Dockerfile
-
+## คำสั่งใน Dockerfile
 ```
 FROM python:3.13
 WORKDIR /kongruksiam/app
