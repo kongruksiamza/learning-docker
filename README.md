@@ -2,7 +2,7 @@
 
   <div id="header" align="center">
     <img src="https://skillicons.dev/icons?i=docker" width="200"/>
-    <h1>คำสั่งประกอบการสอน Docker เบื้องต้น</h1>
+    <h1>โค้ดประกอบการสอน Docker เบื้องต้น</h1>
   </div>
 
   <a href="https://www.facebook.com/KongRuksiamTutorial" target="_blank">
