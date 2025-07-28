@@ -93,6 +93,17 @@ docker run --rm -p 3000:5000 --name mycontainer my-python-app:0.1
 ```
 ## 🛠️ Docker Compose
 
+#### compose.yaml
+```
+name: myproject
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+```
+
 ## 🛢️ MongoDB (Shell)
 #### ฐานข้อมูล
 ```
