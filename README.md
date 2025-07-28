@@ -129,6 +129,19 @@ db.users.insertMany([{name:"สมหมาย",age:18},{name:"สมชาย",
 ```
 pip install pymongo
 ```
+#### เชื่อมต่อฐานข้อมูล
+```
+client = MongoClient("mongodb://localhost:27017")
+db = client["mydb"]
+collection = db["users"]
+```
+#### กำหนดข้อมูลเริ่มต้น
+```
+def init_db():
+   if collection.count_documents({}) == 0:
+      collection.insert_one({"name": "ก้องรักสยาม", "age": 30})
+      print("บันทึกข้อมูลเรียบร้อย")
+```
 
 
 ## 💾 Volumes
