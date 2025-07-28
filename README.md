@@ -137,7 +137,7 @@ collection = db["users"]
 ```
 #### กำหนดข้อมูลเริ่มต้น
 ```
-def init_db():
+def init_data():
    if collection.count_documents({}) == 0:
       collection.insert_one({"name": "ก้องรักสยาม", "age": 30})
       print("บันทึกข้อมูลเรียบร้อย")
