@@ -131,7 +131,7 @@ def get_data():
     users = collection.find()
     return "<br>".join([f"ชื่อ : {user['name']} , อายุ {user['age']} ปี <hr>" for user in users])
 ```
-## 🛢️ MongoDB (Shell)
+## 💾 MongoDB (Shell)
 #### ฐานข้อมูล
 ```
 show dbs
@@ -149,8 +149,6 @@ db.users.insertOne({name:"ชาลี",age:20})
 ```
 db.users.insertMany([{name:"สมหมาย",age:18},{name:"สมชาย",age:25},{name:"สมหญิง",age:20}])
 ```
-
-## 💾 Volumes
 
 ## 📚 หลักสูตรที่เกี่ยวข้อง (ภาษาไทย)
 - [Docker](#)
