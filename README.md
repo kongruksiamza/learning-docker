@@ -143,6 +143,14 @@ def init_data():
       print("บันทึกข้อมูลเรียบร้อย")
 ```
 
+#### แสดงข้อมูลในหน้าเว็บ 
+```
+@app.route('/data')
+def get_data():
+    users = collection.find()
+    return "<br>".join([f"ชื่อ : {user['name']} , อายุ {user['age']} ปี <hr>" for user in users])
+```
+
 
 ## 💾 Volumes
 
