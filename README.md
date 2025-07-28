@@ -93,6 +93,12 @@ docker build -t <image-name:tag> .
 docker run --rm -p 3000:5000 --name mycontainer my-python-app:0.1
 ```
 
-## 🌍 Push Images (Docker Hub)
+## 🗄️ MongoDB 
 
 ## 🛠️ Docker Compose
+
+## 📚 หลักสูตรที่เกี่ยวข้อง (ภาษาไทย)
+- [Docker](#)
+- [Python & Flask Framework](https://www.youtube.com/playlist?list=PLltVQYLz1BMBe14u-5pxxEsbJSbdxd1Vs)
+- [MongoDB](https://www.youtube.com/playlist?list=PLltVQYLz1BMDcG4oMP-hB3VCmIWVXF-fX)
+- [Visual Studio Code](https://www.youtube.com/playlist?list=PLltVQYLz1BMDyQX1B6IccCOeO3TTIsZmp)
