@@ -150,6 +150,28 @@ db.users.insertOne({name:"ชาลี",age:20})
 db.users.insertMany([{name:"สมหมาย",age:18},{name:"สมชาย",age:25},{name:"สมหญิง",age:20}])
 ```
 
+## Volumes 
+```
+name: myproject
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      - mongo-configdb:/data/configdb
+
+volumes:
+  mongo-data:
+  mongo-configdb:
+```
+
 ## 📚 หลักสูตรที่เกี่ยวข้อง (ภาษาไทย)
 - [Docker](#)
 - [Python & Flask Framework](https://www.youtube.com/playlist?list=PLltVQYLz1BMBe14u-5pxxEsbJSbdxd1Vs)
